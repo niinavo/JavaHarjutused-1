@@ -1,4 +1,8 @@
 out/
 *.iml
 .idea/
+<<<<<<< HEAD
 src/calculator/
+=======
+src/calculator
+>>>>>>> f0272dd60f77f7c40edc50954a2d1811ddf5a1f8
