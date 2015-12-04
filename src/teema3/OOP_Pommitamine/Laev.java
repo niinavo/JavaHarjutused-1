@@ -24,7 +24,6 @@ public class Laev {
         koordinaadid = new int[]{x, y};
         System.out.println(Arrays.toString(koordinaadid));
     }
-
     // Parem on muutuja private hoida ja teha eraldi meetod väärtuse välja küsimiseks
     // või uue võõrtuse määramiseks - nii on sul rohkem kontrolli ja kindlust, et muutujat
     // ei kuritarvitata (kas sinu enda või teise arendaja poolt).

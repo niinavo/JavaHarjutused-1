@@ -1,4 +1,5 @@
 out/
 *.iml
 .idea/
-calculator/
+src/calculator/
+xxx/
