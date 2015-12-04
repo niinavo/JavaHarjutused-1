@@ -81,10 +81,10 @@ public class QuadraticCalculator extends Application
         final HBox equationsBox = new HBox();
         equationsBox.setAlignment(Pos.CENTER);
         equationsBox.setSpacing(50);
-        final Image quadraticEquation = getImage("quadraticEquation-transparent.png");
+        final Image quadraticEquation = getImage("file:src/calculator/quadraticEquation-transparent.png");
         final ImageView equationView = new ImageView(quadraticEquation);
         equationsBox.getChildren().add(equationView);
-        final Image quadraticFormula = getImage("quadraticFormula-transparent.png");
+        final Image quadraticFormula = getImage("calculator/quadraticFormula-transparent.png");
         final ImageView formulaView = new ImageView(quadraticFormula);
         equationsBox.getChildren().add(formulaView);
         final Button calculateButton = new Button("Calculate");
