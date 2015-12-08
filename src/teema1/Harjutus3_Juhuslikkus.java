@@ -1,5 +1,7 @@
 package teema1;
 
+import java.util.Scanner;
+
 /**
  * Juhuslikkus
  *
@@ -21,6 +23,20 @@ package teema1;
  */
 public class Harjutus3_Juhuslikkus {
     public static void main(String[] args) {
+        kullKiri();
+    }
 
+    public static void kullKiri(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Kas 1 (kull) või 0 (kiri)");
+        int sisestus = sc.nextInt();
+        int viseTulemus= (int) (Math.random()*2);
+        if (sisestus==viseTulemus){
+            System.out.println("Sa arvasid õigesti");
+        } else {
+            System.out.println("Sa arvasid valesti");
+        }
+        System.out.println("sisestus: "+sisestus);
+        System.out.println("vise tulemus: "+viseTulemus);
     }
 }
